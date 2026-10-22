@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kovvuru Likitha Sai — Aspiring Software Engineer and B.Tech CSSE student at Lendi Institute of Engineering & Technology. Explore my software engineering projects, technical skills, and academic profile.">
+  <meta name="keywords" content="Kovvuru Likitha Sai, Software Engineer, Portfolio, CSSE, Python, Java, SQL, Web Development, Lendi Institute of Engineering & Technology">
+  <meta name="author" content="Kovvuru Likitha Sai">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kovvuru Likitha Sai | Aspiring Software Engineer">
+  <meta property="og:description" content="Personal portfolio of Kovvuru Likitha Sai — B.Tech Computer Science and Systems Engineering student preparing for software engineering internships and campus placements.">
+  <meta property="og:url" content="https://github.com/likithasai12">
+
+  <title>Kovvuru Likitha Sai — Aspiring Software Engineer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Typography: Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-link" aria-label="Kovvuru Likitha Sai - Home">
+        <span class="brand-name">Kovvuru Likitha Sai</span>
+        <span class="brand-tag">CSSE &middot; 2028</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navigation Toggle -->
+      <button 
+        type="button" 
+        class="mobile-menu-toggle" 
+        id="mobile-menu-toggle" 
+        aria-expanded="false" 
+        aria-controls="mobile-nav" 
+        aria-label="Toggle navigation menu"
+      >
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="https://github.com/likithasai12" target="_blank" rel="noopener noreferrer" class="link-subtle">GitHub &nearr;</a>
+        <a href="https://www.linkedin.com/in/kovvuru-likitha-sai-89b615388" target="_blank" rel="noopener noreferrer" class="link-subtle">LinkedIn &nearr;</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="section-hero" id="hero" aria-labelledby="hero-name">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="status-indicator" aria-hidden="true"></span>
+            <span>Aspiring Software Engineer &middot; Open to Opportunities</span>
+          </div>
+          
+          <h1 id="hero-name" class="hero-title">
+            Kovvuru Likitha Sai
+          </h1>
+
+          <p class="hero-role">
+            B.Tech in Computer Science and Systems Engineering at Lendi Institute of Engineering &amp; Technology
+          </p>
+
+          <p class="hero-description">
+            I build functional, dependable software with a strong foundation in core programming paradigms, database systems, and modern web interfaces. Currently sharpening my technical problem-solving skills and preparing for software engineering internships and campus placements.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Featured Projects
+              <span class="btn-arrow" aria-hidden="true">&darr;</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get in Touch
+            </a>
+          </div>
+
+          <div class="hero-meta-bar" aria-label="Quick profile details">
+            <div class="meta-item">
+              <span class="meta-label">Degree &amp; Major</span>
+              <span class="meta-value">B.Tech, CSSE</span>
+            </div>
+            <div class="meta-divider" aria-hidden="true"></div>
+            <div class="meta-item">
+              <span class="meta-label">Academic Standing</span>
+              <span class="meta-value">CGPA: 9.17 / 10.0</span>
+            </div>
+            <div class="meta-divider" aria-hidden="true"></div>
+            <div class="meta-item">
+              <span class="meta-label">Expected Graduation</span>
+              <span class="meta-value">Class of 2028</span>
+            </div>
+            <div class="meta-divider" aria-hidden="true"></div>
+            <div class="meta-item links-item">
+              <span class="meta-label">Connect</span>
+              <div class="meta-links">
+                <a href="https://github.com/likithasai12" target="_blank" rel="noopener noreferrer" class="external-link" aria-label="GitHub Profile (opens in new tab)">
+                  <svg class="icon-svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                  <span>GitHub &nearr;</span>
+                </a>
+                <a href="https://www.linkedin.com/in/kovvuru-likitha-sai-89b615388" target="_blank" rel="noopener noreferrer" class="external-link" aria-label="LinkedIn Profile (opens in new tab)">
+                  <svg class="icon-svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                  </svg>
+                  <span>LinkedIn &nearr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-layout">
+          <div class="section-header-col">
+            <span class="section-index">01</span>
+            <h2 id="about-heading" class="section-title">About Me</h2>
+            <p class="section-subtitle">Academic background &amp; engineering interests</p>
+          </div>
+
+          <div class="section-content-col">
+            <div class="content-card">
+              <p class="paragraph-lead">
+                I am an undergraduate student pursuing my Bachelor of Technology in <strong>Computer Science and Systems Engineering (CSSE)</strong> at Lendi Institute of Engineering &amp; Technology, currently holding a cumulative grade point average of <strong>9.17</strong>.
+              </p>
+
+              <p class="paragraph">
+                My interest in software engineering stems from a genuine desire to understand how resilient, scalable systems are structured. Rather than treating code as disconnected syntax, I focus on the underlying fundamentals: computational logic, object-oriented principles, data structures, and the communication between databases and client applications.
+              </p>
+
+              <p class="paragraph">
+                Throughout my academic coursework and self-directed practice, I work with <strong>Python</strong> and <strong>Java</strong> to build algorithmic solutions, design relational schemas using <strong>SQL</strong>, and construct clean, accessible user interfaces with <strong>HTML, CSS, and modern web standards</strong>.
+              </p>
+
+              <p class="paragraph">
+                As I work toward my degree (Class of 2028), my immediate goal is to secure a software engineering internship where I can contribute to meaningful engineering problems, receive feedback from experienced mentors, and write production-grade code.
+              </p>
+
+              <div class="about-highlights-grid">
+                <div class="highlight-box">
+                  <h3 class="highlight-title">Academic Diligence</h3>
+                  <p class="highlight-desc">Consistently strong academic performance with a 9.17 CGPA, reflecting disciplined study habits and solid conceptual clarity.</p>
+                </div>
+                <div class="highlight-box">
+                  <h3 class="highlight-title">Systems Perspective</h3>
+                  <p class="highlight-desc">Studying Computer Science and Systems Engineering, bridging core software principles with structured systems thinking.</p>
+                </div>
+                <div class="highlight-box">
+                  <h3 class="highlight-title">Continuous Practice</h3>
+                  <p class="highlight-desc">Regularly implementing practical projects to reinforce theoretical concepts in data storage, logic, and web development.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-layout">
+          <div class="section-header-col">
+            <span class="section-index">02</span>
+            <h2 id="skills-heading" class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Core competencies &amp; verified tools</p>
+          </div>
+
+          <div class="section-content-col">
+            <div class="skills-intro-note">
+              <p>Organized strictly by verified coursework and active project practice. Presented without subjective percentage bars or unverified claims.</p>
+            </div>
+
+            <div class="skills-grid">
+              <!-- Category 1: Programming Languages -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <span class="category-tag">Languages</span>
+                  <h3 class="skill-category-name">Programming Languages</h3>
+                </div>
+                <ul class="skill-items-list">
+                  <li class="skill-item">
+                    <div class="skill-item-main">
+                      <span class="skill-name">Python</span>
+                    </div>
+                    <p class="skill-context">Data structures, algorithm implementation, problem solving, scripting, and modular application development.</p>
+                  </li>
+                  <li class="skill-item">
+                    <div class="skill-item-main">
+                      <span class="skill-name">Java</span>
+                    </div>
+                    <p class="skill-context">Object-oriented programming (OOP), inheritance, encapsulation, polymorphism, and structured system design.</p>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category 2: Web Technologies -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <span class="category-tag">Frontend &amp; UI</span>
+                  <h3 class="skill-category-name">Web Technologies</h3>
+                </div>
+                <ul class="skill-items-list">
+                  <li class="skill-item">
+                    <div class="skill-item-main">
+                      <span class="skill-name">HTML</span>
+                    </div>
+                    <p class="skill-context">Semantic structure, document outline, accessibility standards (ARIA), and SEO best practices.</p>
+                  </li>
+                  <li class="skill-item">
+                    <div class="skill-item-main">
+                      <span class="skill-name">CSS</span>
+                    </div>
+                    <p class="skill-context">Responsive layouts, Flexbox, CSS Grid, custom properties (CSS variables), typography, and media queries.</p>
+                  </li>
+                  <li class="skill-item">
+                    <div class="skill-item-main">
+                      <span class="skill-name">Web Development</span>
+                    </div>
+                    <p class="skill-context">End-to-end web interface composition, DOM manipulation, client-side interactivity, and responsive design.</p>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category 3: Databases & Data -->
+              <div class="skill-category-card">
+                <div class="skill-category-header">
+                  <span class="category-tag">Data Layer</span>
+                  <h3 class="skill-category-name">Database Systems</h3>
+                </div>
+                <ul class="skill-items-list">
+                  <li class="skill-item">
+                    <div class="skill-item-main">
+                      <span class="skill-name">SQL</span>
+                    </div>
+                    <p class="skill-context">Relational database concepts, schema definition, DDL/DML operations, multi-table joins, queries, and indexing.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-layout">
+          <div class="section-header-col">
+            <span class="section-index">03</span>
+            <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Practical applications &amp; problem-solving</p>
+          </div>
+
+          <div class="section-content-col">
+            <p class="projects-intro-text">
+              Each project addresses a specific functional problem with clearly defined requirements and modular technical architecture.
+            </p>
+
+            <div class="projects-list">
+
+              <!-- Project 1: PharmaWatch -->
+              <!-- ================================================================ -->
+              <!-- EDITABLE FIELD: Replace or refine PharmaWatch details below      -->
+              <!-- ================================================================ -->
+              <article class="project-entry" id="project-pharmawatch">
+                <header class="project-header">
+                  <div class="project-title-group">
+                    <span class="project-number">01 &mdash; Healthcare &amp; Supply Chain</span>
+                    <h3 class="project-name">PharmaWatch</h3>
+                  </div>
+                  <div class="project-links">
+                    <!-- EDITABLE: Replace '#' with your GitHub repository or live URL -->
+                    <a href="https://github.com/likithasai12" target="_blank" rel="noopener noreferrer" class="project-action-link" aria-label="View PharmaWatch source on GitHub">
+                      <span>Source Code &nearr;</span>
+                    </a>
+                  </div>
+                </header>
+
+                <div class="project-body">
+                  <div class="project-section-block">
+                    <h4 class="block-label">Overview</h4>
+                    <p class="project-description">
+                      <!-- EDITABLE FIELD: Short, specific description -->
+                      A pharmaceutical monitoring and inventory tracking application designed to streamline medicine stock verification, monitor expiration dates, and safeguard distribution compliance.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Problem Addressed</h4>
+                    <p class="project-problem">
+                      <!-- EDITABLE FIELD: Problem being addressed -->
+                      Pharmacies and healthcare distributors frequently face losses and critical health risks due to manual tracking of batch expirations, stock-outs of vital medicines, and lack of real-time inventory visibility.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Key Features</h4>
+                    <!-- EDITABLE FIELD: Key features list -->
+                    <ul class="project-features-list">
+                      <li>Automated alert system for batches approaching expiration dates.</li>
+                      <li>Categorized stock search and real-time inventory level indicators.</li>
+                      <li>SQL-backed records management for suppliers, batches, and transactions.</li>
+                      <li>Intuitive, responsive dashboard for pharmacy staff and administrators.</li>
+                    </ul>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Technologies Used</h4>
+                    <!-- EDITABLE FIELD: Technologies used -->
+                    <div class="tech-tags">
+                      <span class="tech-tag">Python</span>
+                      <span class="tech-tag">SQL</span>
+                      <span class="tech-tag">HTML</span>
+                      <span class="tech-tag">CSS</span>
+                      <span class="tech-tag">Web Development</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Project 2: CyberShield AI -->
+              <!-- ================================================================ -->
+              <!-- EDITABLE FIELD: Replace or refine CyberShield AI details below   -->
+              <!-- ================================================================ -->
+              <article class="project-entry" id="project-cybershield">
+                <header class="project-header">
+                  <div class="project-title-group">
+                    <span class="project-number">02 &mdash; Security &amp; Anomaly Detection</span>
+                    <h3 class="project-name">CyberShield AI</h3>
+                  </div>
+                  <div class="project-links">
+                    <!-- EDITABLE: Replace '#' with your GitHub repository or live URL -->
+                    <a href="https://github.com/likithasai12" target="_blank" rel="noopener noreferrer" class="project-action-link" aria-label="View CyberShield AI source on GitHub">
+                      <span>Source Code &nearr;</span>
+                    </a>
+                  </div>
+                </header>
+
+                <div class="project-body">
+                  <div class="project-section-block">
+                    <h4 class="block-label">Overview</h4>
+                    <p class="project-description">
+                      <!-- EDITABLE FIELD: Short, specific description -->
+                      An intelligent security monitoring prototype that analyzes incoming network patterns and access requests to detect suspicious behavioral anomalies and flag potential security threats.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Problem Addressed</h4>
+                    <p class="project-problem">
+                      <!-- EDITABLE FIELD: Problem being addressed -->
+                      Traditional rule-based security filters struggle to keep pace with evolving attack vectors and unauthorized access spikes, leading to delayed incident response and compromised endpoints.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Key Features</h4>
+                    <!-- EDITABLE FIELD: Key features list -->
+                    <ul class="project-features-list">
+                      <li>Log ingestion and parsing engine for structured network connection records.</li>
+                      <li>Rule-based pattern matching and anomaly threshold scoring.</li>
+                      <li>Incident logging system with severity categorization and audit logs.</li>
+                      <li>Clear visual reporting console highlighting active alerts and event history.</li>
+                    </ul>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Technologies Used</h4>
+                    <!-- EDITABLE FIELD: Technologies used -->
+                    <div class="tech-tags">
+                      <span class="tech-tag">Python</span>
+                      <span class="tech-tag">Java</span>
+                      <span class="tech-tag">SQL</span>
+                      <span class="tech-tag">Web Development</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Project 3: NutriLife -->
+              <!-- ================================================================ -->
+              <!-- EDITABLE FIELD: Replace or refine NutriLife details below        -->
+              <!-- ================================================================ -->
+              <article class="project-entry" id="project-nutrilife">
+                <header class="project-header">
+                  <div class="project-title-group">
+                    <span class="project-number">03 &mdash; Health &amp; Daily Tracking</span>
+                    <h3 class="project-name">NutriLife</h3>
+                  </div>
+                  <div class="project-links">
+                    <!-- EDITABLE: Replace '#' with your GitHub repository or live URL -->
+                    <a href="https://github.com/likithasai12" target="_blank" rel="noopener noreferrer" class="project-action-link" aria-label="View NutriLife source on GitHub">
+                      <span>Source Code &nearr;</span>
+                    </a>
+                  </div>
+                </header>
+
+                <div class="project-body">
+                  <div class="project-section-block">
+                    <h4 class="block-label">Overview</h4>
+                    <p class="project-description">
+                      <!-- EDITABLE FIELD: Short, specific description -->
+                      A personal dietary and nutrition management web application designed to help users track nutritional intake, calculate daily macronutrient goals, and build consistent eating habits.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Problem Addressed</h4>
+                    <p class="project-problem">
+                      <!-- EDITABLE FIELD: Problem being addressed -->
+                      Users often abandon wellness goals due to overly complicated tracking apps with confusing interfaces, slow navigation, and unclear dietary breakdowns.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Key Features</h4>
+                    <!-- EDITABLE FIELD: Key features list -->
+                    <ul class="project-features-list">
+                      <li>Daily meal logging with nutritional calculations for calories, protein, and carbs.</li>
+                      <li>Structured database storing standardized food items and customizable user entries.</li>
+                      <li>Clean, mobile-responsive layout for quick logging during meals.</li>
+                      <li>Progress summary tables displaying weekly adherence and targets.</li>
+                    </ul>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Technologies Used</h4>
+                    <!-- EDITABLE FIELD: Technologies used -->
+                    <div class="tech-tags">
+                      <span class="tech-tag">HTML</span>
+                      <span class="tech-tag">CSS</span>
+                      <span class="tech-tag">Web Development</span>
+                      <span class="tech-tag">SQL</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Project 4: FinWise -->
+              <!-- ================================================================ -->
+              <!-- EDITABLE FIELD: Replace or refine FinWise details below          -->
+              <!-- ================================================================ -->
+              <article class="project-entry" id="project-finwise">
+                <header class="project-header">
+                  <div class="project-title-group">
+                    <span class="project-number">04 &mdash; Personal Finance &amp; Budgeting</span>
+                    <h3 class="project-name">FinWise</h3>
+                  </div>
+                  <div class="project-links">
+                    <!-- EDITABLE: Replace '#' with your GitHub repository or live URL -->
+                    <a href="https://github.com/likithasai12" target="_blank" rel="noopener noreferrer" class="project-action-link" aria-label="View FinWise source on GitHub">
+                      <span>Source Code &nearr;</span>
+                    </a>
+                  </div>
+                </header>
+
+                <div class="project-body">
+                  <div class="project-section-block">
+                    <h4 class="block-label">Overview</h4>
+                    <p class="project-description">
+                      <!-- EDITABLE FIELD: Short, specific description -->
+                      A disciplined financial tracking and budget allocation tool providing clear visibility into personal income, expenditure categories, and monthly savings thresholds.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Problem Addressed</h4>
+                    <p class="project-problem">
+                      <!-- EDITABLE FIELD: Problem being addressed -->
+                      Students and early-career professionals struggle to maintain visibility over recurrent micro-expenses, leading to month-end budget deficits and lack of structured savings habits.
+                    </p>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Key Features</h4>
+                    <!-- EDITABLE FIELD: Key features list -->
+                    <ul class="project-features-list">
+                      <li>Expense categorization engine (Academic, Living, Essentials, Discretionary).</li>
+                      <li>Relational database storage tracking transaction dates, amounts, and tags.</li>
+                      <li>Monthly balance calculations with budget ceiling warning indicators.</li>
+                      <li>Exportable ledger overview and responsive interface for fast entry.</li>
+                    </ul>
+                  </div>
+
+                  <div class="project-section-block">
+                    <h4 class="block-label">Technologies Used</h4>
+                    <!-- EDITABLE FIELD: Technologies used -->
+                    <div class="tech-tags">
+                      <span class="tech-tag">Java</span>
+                      <span class="tech-tag">SQL</span>
+                      <span class="tech-tag">HTML</span>
+                      <span class="tech-tag">CSS</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-layout">
+          <div class="section-header-col">
+            <span class="section-index">04</span>
+            <h2 id="education-heading" class="section-title">Education</h2>
+            <p class="section-subtitle">Academic degrees &amp; milestones</p>
+          </div>
+
+          <div class="section-content-col">
+            <div class="education-card">
+              <div class="edu-top-row">
+                <div class="edu-degree-group">
+                  <span class="edu-degree-badge">Undergraduate Degree</span>
+                  <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                  <p class="edu-branch">Computer Science and Systems Engineering (CSSE)</p>
+                </div>
+                <div class="edu-period">
+                  <span class="edu-status-tag">Expected 2028</span>
+                  <span class="edu-years">2024 &mdash; 2028</span>
+                </div>
+              </div>
+
+              <div class="edu-institution-row">
+                <div class="institution-details">
+                  <span class="institution-name">Lendi Institute of Engineering &amp; Technology</span>
+                  <span class="institution-location">Andhra Pradesh, India</span>
+                </div>
+                <div class="academic-score-badge">
+                  <span class="score-label">Current CGPA</span>
+                  <span class="score-number">9.17 <span class="score-scale">/ 10.0</span></span>
+                </div>
+              </div>
+
+              <div class="edu-details-block">
+                <h4 class="edu-details-title">Key Academic Focus Areas</h4>
+                <div class="edu-tags">
+                  <span class="edu-tag">Object-Oriented Programming (Java &amp; Python)</span>
+                  <span class="edu-tag">Data Structures &amp; Algorithms</span>
+                  <span class="edu-tag">Database Management Systems (SQL)</span>
+                  <span class="edu-tag">Web Technologies &amp; Standards</span>
+                  <span class="edu-tag">Computer Organization &amp; Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-layout">
+          <div class="section-header-col">
+            <span class="section-index">05</span>
+            <h2 id="contact-heading" class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Let's connect for opportunities</p>
+          </div>
+
+          <div class="section-content-col">
+            <div class="contact-card">
+              <div class="contact-intro">
+                <h3 class="contact-title">Interested in discussing an internship or engineering role?</h3>
+                <p class="contact-text">
+                  I am actively seeking software engineering internships, student trainee programs, and technical collaborations for upcoming terms. Feel free to reach out directly via email or connect with me on LinkedIn and GitHub.
+                </p>
+              </div>
+
+              <div class="contact-methods-grid">
+                
+                <!-- Email Card with copy capability -->
+                <div class="contact-channel-card">
+                  <div class="channel-header">
+                    <span class="channel-label">Direct Email</span>
+                    <span class="channel-tag">Primary</span>
+                  </div>
+                  <!-- EDITABLE FIELD: Replace with your actual email address -->
+                  <div class="email-display-container">
+                    <a href="mailto:likitha.sai.csse@gmail.com" class="channel-value email-link" id="user-email-link" title="Click to open default email client">
+                      likitha.sai.csse@gmail.com
+                    </a>
+                  </div>
+                  <div class="channel-actions">
+                    <a href="mailto:likitha.sai.csse@gmail.com" class="btn btn-secondary btn-sm" id="mailto-btn">
+                      Send Email &nearr;
+                    </a>
+                    <button type="button" class="btn btn-ghost btn-sm" id="copy-email-btn" data-email="likitha.sai.csse@gmail.com" onclick="copyEmailToClipboard(this)">
+                      <span id="copy-btn-text">Copy Email</span>
+                    </button>
+                  </div>
+                  <p class="channel-hint">Note: You can update this email placeholder directly in <code>index.html</code>.</p>
+                </div>
+
+                <!-- Professional Profiles Card -->
+                <div class="contact-channel-card">
+                  <div class="channel-header">
+                    <span class="channel-label">Professional Profiles</span>
+                    <span class="channel-tag">Verified</span>
+                  </div>
+
+                  <ul class="profile-links-list">
+                    <li>
+                      <a href="https://www.linkedin.com/in/kovvuru-likitha-sai-89b615388" target="_blank" rel="noopener noreferrer" class="profile-link-row">
+                        <div class="profile-link-info">
+                          <span class="profile-link-platform">LinkedIn</span>
+                          <span class="profile-link-handle">kovvuru-likitha-sai-89b615388</span>
+                        </div>
+                        <span class="profile-link-arrow" aria-hidden="true">&nearr;</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/likithasai12" target="_blank" rel="noopener noreferrer" class="profile-link-row">
+                        <div class="profile-link-info">
+                          <span class="profile-link-platform">GitHub</span>
+                          <span class="profile-link-handle">likithasai12</span>
+                        </div>
+                        <span class="profile-link-arrow" aria-hidden="true">&nearr;</span>
+                      </a>
+                    </li>
+                  </ul>
+
+                  <p class="channel-hint">Checked regularly for messages and technical discussions.</p>
+                </div>
+
+              </div>
+
+              <!-- Toast notification element for copy action -->
+              <div class="toast-notice" id="toast-notice" role="status" aria-live="polite" hidden>
+                Email copied to clipboard!
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="footer-name">Kovvuru Likitha Sai</p>
+        <p class="footer-role">Aspiring Software Engineer &middot; B.Tech CSSE</p>
+      </div>
+
+      <div class="footer-middle">
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-copyright">
+          &copy; <span id="current-year">2026</span> Kovvuru Likitha Sai.
+        </p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
+          Back to top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
